@@ -1,7 +1,12 @@
 {
-  "name"    : "shownoter",
-  "version" : "0.1.0",
-  "main"    : "main.js",
+  "name": "shownoter",
+  "version": "0.1.0",
+  "main": "main.js",
+  "dependencies": {
+    "electron": "^1.6.10",
+    "xml2js": "^0.4.17"
+  },
+  "dev-dependencies": "",
   "scripts": {
     "start": "electron ."
   }
